@@ -13,6 +13,12 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo {
   color: white;
   font-size: 1.5rem;
@@ -42,4 +48,46 @@ nav {
 .nav-links a.active {
   background-color: #007bff;
   border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  min-height: 75px;
+  background-color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-info {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-info li {
+  color: white;
+}
+
+.footer-info a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s;
+}
+
+.footer-info a:hover {
+  color: #ff00dd;
 }
