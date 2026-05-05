@@ -16,7 +16,14 @@
             <img src="./assets/icon.png" alt="ICON" width="40px">
             <a href="#" class="logo">JIFAL 2026</a>
         </div>
-        <ul class="nav-links">
+
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
             <li><a href="./index.html" class="active">Home</a></li>
             <li><a href="./pages/programacao.html">Programação</a></li>
             <li><a href="./pages/modalidades.html">Modalidades</a></li>
@@ -28,28 +35,69 @@
     </nav>
 
     <main>
-        <section>
-            <h1>Imagem de destaque</h1>
-            <img src="./assets/destaque.png" alt="Imagem de destaque">
-            <h3>O ginásio inaugurou para o JIFAL de 2026 com uma cara nova.</h3>
-        </section>
-        <section>
-            <h1>Período dos jogos</h1>
-            <h3>O JIFAL ocorrerá entre os dias 13 e 16 de maio de 2026</h3>
-        </section>
-        <section>
-            <h1>Destaque do ano</h1>
-            <h3>O JIFAL terá a nova modalidade tênis de mesa, tendo 13 turmas participantes e com uma premiação ainda não definida</h3>
-        </section>
+        <div class="content">
+            <section>
+                <h2 class="section-title">Sobre o evento</h2>
+                <div class="about-card">
+                    <p>Os <strong>Jogos Internos do IFAL Campus Arapiraca (JIFAL)</strong> são um evento esportivo anual que reúne os estudantes dos cursos técnicos integrados ao ensino médio em competições de diversas modalidades. O objetivo é <strong>socializar e democratizar as práticas esportivas</strong>, promovendo a integração entre as turmas, incentivando hábitos saudáveis e fortalecendo o espírito de equipe e o pertencimento institucional.</p>
+                    <br>
+                    <p>A cerimônia de abertura conta com desfile das turmas, execução do hino nacional e uma partida festiva entre o time de servidores e o último campeão de futsal. As competições seguem um cronograma definido pela comissão organizadora, coordenada pela professora de Educação Física do campus.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Imagem de destaque</h2>
+                <img src="./assets/destaque.png" alt="Ginásio do IFAL" class="featured-image">
+            </section>
+
+            <section>
+                <h2 class="section-title">Período dos Jogos - 2026</h2>
+                <div class="about-card">
+                    <p>A edição 2026 dos Jogos Internos do IFAL Campus Arapiraca está programada para ocorrer entre os dias <strong>13 e 16 de maio de 2026</strong>. A cerimônia de abertura será realizada no ginásio, às 8 horas, com a tradicional partida festiva de futsal entre o time de servidores e o atual campeão da modalidade.</p>
+                    <br>
+                    <ul style="margin-left: 20px; line-height: 2; color: #374151;">
+                        <li><strong>Abertura:</strong> 13 de maio (quarta-feira), às 8h</li>
+                        <li><strong>Encerramento:</strong> 16 de maio (sábado)</li>
+                        <li><strong>Local:</strong> Ginásio do IFAL Campus Arapiraca</li>
+                        <li><strong>Público:</strong> Estudantes dos cursos técnicos integrados e servidores</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Destaques de 2026</h2>
+                <div class="about-card">
+                    <p><strong>Destaques do JIFAL 2026 - Campus Arapiraca:</strong> acompanhe a 14ª edição dos Jogos Internos com a participação das turmas dos cursos técnicos integrados em oito modalidades esportivas. Este ano, a comissão organizadora preparou uma programação especial com premiação para os campeões de cada modalidade. Além que o JIFAL terá a nova modalidade tênis de mesa. Não fique de fora!</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Modalidades</h2>
+                <div class="about-card">
+                    <p>Os JIFAL 2026 contemplam modalidades para todos os perfis de atletas, desde esportes coletivos até jogos de estratégia. Tendo os esportes abaixo:</p>
+                    <br>
+                    <div class="sports-div">
+                        <span>Futsal</span>
+                        <span>Basquete</span>
+                        <span>Handebol</span>
+                        <span>Voleibol</span>
+                        <span>Xadrez</span>
+                        <span>Natação</span>
+                        <span>Atletismo</span>
+                        <span>Tênis de mesa</span>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <ul class="footer-info">
-            <li>Instituto Federal de Alagoas - Campus Arapiraca</li>
-            <li>Desenvolvedores: Arthur V. - José A. - Matheus S. - Maycon D.</li>
-            <li>Ano de criação: 2026</li>
-            <li><a href="https://instagram.com/913ifal_">Instagram da turma</a></li>
-        </ul>
+        <p><strong>Instituto Federal de Alagoas (IFAL)</strong> - Campus Arapiraca</p>
+        <p>Alunos desenvolvedores: Arthur V. · Matheus S. · Maycon D.</p>
+        <p>Ano de criação do site: 2026</p>
+        <p><a href="https://www.instagram.com/913ifal_/" target="_blank">Instagram da Turma</a> · <a href="https://www2.ifal.edu.br/campus/arapiraca" target="_blank">Site do Campus Arapiraca</a></p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

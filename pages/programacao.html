@@ -16,7 +16,14 @@
             <img src="../assets/icon.png" alt="ICON" width="40px">
             <a href="#" class="logo">JIFAL 2026</a>
         </div>
-        <ul class="nav-links">
+
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
             <li><a href="../index.html">Home</a></li>
             <li><a href="./programacao.html" class="active">Programação</a></li>
             <li><a href="./modalidades.html">Modalidades</a></li>
@@ -28,8 +35,10 @@
     </nav>
 
     <main>
-        <section>
-            <h1>Lista dos dias, horários, esportes e locais</h1>
+        <div class="content">
+            <section>
+            <h2 class="section-title">Lista dos dias, horários, esportes e locais</h2>
+            <div class="about-card">
             <table>
                 <tr>
                     <th>Dias</th>
@@ -39,39 +48,41 @@
                 </tr>
                 <tr>
                     <td>13/05</td>
-                    <td></td>
-                    <td></td>
+                    <td>indef.</td>
+                    <td>indef.</td>
                     <td>Ginásio</td>
                 </tr>
                 <tr>
                     <td>14/05</td>
-                    <td></td>
-                    <td></td>
+                    <td>indef.</td>
+                    <td>indef.</td>
                     <td>Ginásio</td>
                 </tr>
                 <tr>
                     <td>15/05</td>
-                    <td></td>
-                    <td></td>
+                    <td>indef.</td>
+                    <td>indef.</td>
                     <td>Ginásio</td>
                 </tr>
                 <tr>
                     <td>16/05</td>
-                    <td></td>
-                    <td></td>
+                    <td>indef.</td>
+                    <td>indef.</td>
                     <td>Ginásio</td>
                 </tr>
             </table>
+            </div>
         </section>
+        </div>
     </main>
 
     <footer>
-        <ul class="footer-info">
-            <li>Instituto Federal de Alagoas - Campus Arapiraca</li>
-            <li>Desenvolvedores: Arthur V. - José A. - Matheus S. - Maycon D.</li>
-            <li>Ano de criação: 2026</li>
-            <li><a href="https://instagram.com/913ifal_">Instagram da turma</a></li>
-        </ul>
+        <p><strong>Instituto Federal de Alagoas (IFAL)</strong> - Campus Arapiraca</p>
+        <p>Alunos desenvolvedores: Arthur V. · Matheus S. · Maycon D.</p>
+        <p>Ano de criação do site: 2026</p>
+        <p><a href="https://www.instagram.com/913ifal_/" target="_blank">Instagram da Turma</a> · <a href="https://www2.ifal.edu.br/campus/arapiraca" target="_blank">Site do Campus Arapiraca</a></p>
     </footer>
+    
+    <script src="../script.js"></script>
 </body>
 </html>
